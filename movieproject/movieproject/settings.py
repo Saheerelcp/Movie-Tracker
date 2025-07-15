@@ -79,11 +79,12 @@ WSGI_APPLICATION = 'movieproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'moviehub',
-        'USER' : 'root',
-        'PASSWORD' : 'abcd1234abcd',
-        'HOST' : 'localhost'
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'movie-tracker',
+        'USER' : 'moviehub_awlp',
+        'PASSWORD' : 'bVklDYUS1LYBcBkeBzR4WdQKgAMEQ9nL',
+        'HOST' : 'dpg-d1rav6adbo4c73cnb6bg-a',
+        'PORT' : 5432
     }
 }
 
